@@ -16,7 +16,7 @@ module.exports = (opt)->
     feed.addItem
       title: /^# \[(.*)\]/.exec(article[0])[1]
       link: "#{opt.link}/#{url[1]}/#{url[2]}/#{url[3]}/#{url[4]}.html"
-      description: article.slice(0, 5).join '\n'
+      description: article.slice(1, 5).join '\n'
       author: opt.author
       date: new Date url[1], url[2], url[3]
 
