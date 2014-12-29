@@ -2,7 +2,12 @@
   "name": "gulp-article-rss",
   "version": "0.0.0",
   "description": "gulp plugin for generate rss with markdown articles",
-  "keywords": [],
+  "keywords": [
+    "gulpplugin",
+    "article",
+    "rss",
+    "gulp"
+  ],
   "main": "build/index.js",
   "scripts": {
     "test": "./node_modules/.bin/gulp test"
