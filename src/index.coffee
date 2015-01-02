@@ -1,7 +1,7 @@
 gutil   = require 'gulp-util'
 through = require 'through2'
 Feed    = require 'feed'
-path = require 'path'
+path    = require 'path'
 
 module.exports = (opt)->
   cwd = base = null
