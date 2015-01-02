@@ -21,8 +21,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "feed": "^0.2.6",
     "gulp-util": "^3.0.1",
+    "rss": "^1.1.1",
     "through2": "^0.6.3"
   },
   "devDependencies": {

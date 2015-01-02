@@ -8,13 +8,12 @@ it 'should generate rss feed', (done)->
   stream = rss
     title: 'title'
     description: 'description'
-    link: 'http://li.nk'
-    image: 'http://li.nk/image.png'
+    feed_url: 'http://li.nk/rss.xml'
+    site_url: 'http://li.nk'
+    image_url: 'http://li.nk/image.png'
+    author: 'author'
     copyright: 'MIT'
-    updated: new Date 2014, 12, 29
-    author:
-      name: 'name'
-      link: 'http://li.nk'
+    pubDate: new Date 2014, 12, 29
 
   gulp.src 'test/fixtures/*.md'
     .pipe stream
